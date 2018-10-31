@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D40729221892C5D0000103C /* CeldaBusqueda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40729121892C5D0000103C /* CeldaBusqueda.swift */; };
+		3D40729C21893CD00000103C /* ViewControllerDetallePelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40729B21893CD00000103C /* ViewControllerDetallePelicula.swift */; };
 		3DBF0BF0218256EC0072ACCD /* PeliculaBusqueda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF0BEF218256EC0072ACCD /* PeliculaBusqueda.swift */; };
 		3DBF0BF2218257560072ACCD /* DatosBusqueda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF0BF1218257560072ACCD /* DatosBusqueda.swift */; };
 		3DD356A02180C7090048703D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD3569F2180C7090048703D /* AppDelegate.swift */; };
@@ -108,6 +110,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D40729121892C5D0000103C /* CeldaBusqueda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaBusqueda.swift; sourceTree = "<group>"; };
+		3D40729B21893CD00000103C /* ViewControllerDetallePelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetallePelicula.swift; sourceTree = "<group>"; };
 		3DBF0BEF218256EC0072ACCD /* PeliculaBusqueda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculaBusqueda.swift; sourceTree = "<group>"; };
 		3DBF0BF1218257560072ACCD /* DatosBusqueda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosBusqueda.swift; sourceTree = "<group>"; };
 		3DD3569C2180C7090048703D /* buscadorPeliculas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscadorPeliculas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				3DD356A12180C7090048703D /* ViewController.swift */,
+				3D40729121892C5D0000103C /* CeldaBusqueda.swift */,
+				3D40729B21893CD00000103C /* ViewControllerDetallePelicula.swift */,
 			);
 			name = viewControllers;
 			sourceTree = "<group>";
@@ -437,8 +443,10 @@
 			files = (
 				3DD356A22180C7090048703D /* ViewController.swift in Sources */,
 				3DD356A02180C7090048703D /* AppDelegate.swift in Sources */,
+				3D40729221892C5D0000103C /* CeldaBusqueda.swift in Sources */,
 				3DBF0BF0218256EC0072ACCD /* PeliculaBusqueda.swift in Sources */,
 				3DBF0BF2218257560072ACCD /* DatosBusqueda.swift in Sources */,
+				3D40729C21893CD00000103C /* ViewControllerDetallePelicula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
