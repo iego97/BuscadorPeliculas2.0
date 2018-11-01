@@ -88,7 +88,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destino = segue.destination as! ViewControllerDetallePelicula
-        destino.Titulo = DatosBusqueda.Datos[(tbBusqueda.indexPathForSelectedRow?.row)!].titleBusqueda
+        destino.titulo = DatosBusqueda.Datos[(tbBusqueda.indexPathForSelectedRow?.row)!].titleBusqueda!
     }
 
     override func didReceiveMemoryWarning() {

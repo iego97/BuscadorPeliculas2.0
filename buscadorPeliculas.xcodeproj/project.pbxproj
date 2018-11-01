@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D18B6C9218B8D2800348236 /* Modulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18B6C8218B8D2800348236 /* Modulo.swift */; };
 		3D40729221892C5D0000103C /* CeldaBusqueda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40729121892C5D0000103C /* CeldaBusqueda.swift */; };
 		3D40729C21893CD00000103C /* ViewControllerDetallePelicula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40729B21893CD00000103C /* ViewControllerDetallePelicula.swift */; };
 		3DBF0BF0218256EC0072ACCD /* PeliculaBusqueda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF0BEF218256EC0072ACCD /* PeliculaBusqueda.swift */; };
@@ -110,6 +111,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D18B6C8218B8D2800348236 /* Modulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulo.swift; sourceTree = "<group>"; };
 		3D40729121892C5D0000103C /* CeldaBusqueda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaBusqueda.swift; sourceTree = "<group>"; };
 		3D40729B21893CD00000103C /* ViewControllerDetallePelicula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetallePelicula.swift; sourceTree = "<group>"; };
 		3DBF0BEF218256EC0072ACCD /* PeliculaBusqueda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculaBusqueda.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			children = (
 				3DBF0BEF218256EC0072ACCD /* PeliculaBusqueda.swift */,
 				3DBF0BF1218257560072ACCD /* DatosBusqueda.swift */,
+				3D18B6C8218B8D2800348236 /* Modulo.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				3D40729221892C5D0000103C /* CeldaBusqueda.swift in Sources */,
 				3DBF0BF0218256EC0072ACCD /* PeliculaBusqueda.swift in Sources */,
 				3DBF0BF2218257560072ACCD /* DatosBusqueda.swift in Sources */,
+				3D18B6C9218B8D2800348236 /* Modulo.swift in Sources */,
 				3D40729C21893CD00000103C /* ViewControllerDetallePelicula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -164,6 +164,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpO-Gb-VeV">
+                                <rect key="frame" x="16" y="202" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VXk-5C-O49"/>
+                                    <constraint firstAttribute="width" constant="343" id="ZdG-02-986"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -171,9 +181,11 @@
                             <constraint firstItem="wae-wA-hns" firstAttribute="trailing" secondItem="3vB-iF-qht" secondAttribute="trailing" constant="16" id="BhP-vL-Ivm"/>
                             <constraint firstItem="Ko5-Kk-5fM" firstAttribute="leading" secondItem="wae-wA-hns" secondAttribute="leading" constant="16" id="FqP-ev-9Ai"/>
                             <constraint firstItem="3vB-iF-qht" firstAttribute="top" secondItem="Ko5-Kk-5fM" secondAttribute="bottom" constant="9" id="FsY-9q-pCc"/>
+                            <constraint firstItem="wpO-Gb-VeV" firstAttribute="leading" secondItem="wae-wA-hns" secondAttribute="leading" constant="16" id="K6B-9v-dP2"/>
                             <constraint firstItem="3vB-iF-qht" firstAttribute="leading" secondItem="wae-wA-hns" secondAttribute="leading" constant="16" id="Lza-nD-qaZ"/>
                             <constraint firstItem="zKC-7c-ehB" firstAttribute="top" secondItem="wae-wA-hns" secondAttribute="top" constant="28" id="R64-Tl-BJ6"/>
                             <constraint firstItem="AdO-w7-pcJ" firstAttribute="top" secondItem="3vB-iF-qht" secondAttribute="bottom" constant="9" id="RJP-81-Lhv"/>
+                            <constraint firstItem="wpO-Gb-VeV" firstAttribute="top" secondItem="AdO-w7-pcJ" secondAttribute="bottom" constant="13" id="ROT-ED-DYw"/>
                             <constraint firstItem="P8W-f9-Qqk" firstAttribute="leading" secondItem="wae-wA-hns" secondAttribute="leading" constant="16" id="TKo-ew-YqW"/>
                             <constraint firstItem="wae-wA-hns" firstAttribute="trailing" secondItem="zKC-7c-ehB" secondAttribute="trailing" constant="16" id="d7W-eW-oIh"/>
                             <constraint firstItem="wae-wA-hns" firstAttribute="trailing" secondItem="P8W-f9-Qqk" secondAttribute="trailing" constant="16" id="eoz-g5-Teo"/>
@@ -185,6 +197,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wae-wA-hns"/>
                     </view>
+                    <connections>
+                        <outlet property="lblDirector" destination="P8W-f9-Qqk" id="DvE-U9-ufk"/>
+                        <outlet property="lblDuracion" destination="Ko5-Kk-5fM" id="9In-Gb-Keo"/>
+                        <outlet property="lblGenero" destination="AdO-w7-pcJ" id="j8t-DO-fzq"/>
+                        <outlet property="lblRating" destination="3vB-iF-qht" id="9F8-4i-OvW"/>
+                        <outlet property="lblTitulo" destination="zKC-7c-ehB" id="DoI-KZ-Eop"/>
+                        <outlet property="lblYear" destination="wpO-Gb-VeV" id="3cR-Vn-jpR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SMK-tz-sXx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
