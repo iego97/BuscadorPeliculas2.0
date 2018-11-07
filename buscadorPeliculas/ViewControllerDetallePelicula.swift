@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import Alamofire
+import AlamofireImage
 
 class ViewControllerDetallePelicula: UIViewController{
     
@@ -19,6 +20,7 @@ class ViewControllerDetallePelicula: UIViewController{
     @IBOutlet weak var lblGenero: UILabel!
     @IBOutlet weak var lblYear: UILabel!
     
+    @IBOutlet weak var imgViewPoster: UIImageView!
     
     var titulo : String = ""
     var urlPelicula : String?
@@ -64,6 +66,18 @@ class ViewControllerDetallePelicula: UIViewController{
                 {
                     self.lblGenero.text = genre
                 }
+                
+                if let poster = dictSearch.value(forKey: "Poster") as? String
+                {
+                    Alamofire.request(poster).responseImage{
+                        response in
+                        self.imgViewPoster.image = response.result.value
+                    }
+                    
+                }
+                
+                
+                
                 
                 
             }
